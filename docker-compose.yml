@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  jekyll:
+    build: .
+    # Map the host port 4000 to the container port 4000
+    ports:
+      - "4000:4000"
+      - "35729:35729" # Required for LiveReload functionality
+    # Mount the current directory strictly to the working directory in the container
+    volumes:
+      - .:/srv/jekyll

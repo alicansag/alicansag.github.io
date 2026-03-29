@@ -1,5 +1,5 @@
-title: gaga's blog
-name: gaga's blog
+title: Can's Blog
+name: Can's Blog
 description: Thoughts and experiments
 
 remote_theme: andrewhwanpark/brutalist-blog
@@ -14,7 +14,7 @@ url:
 baseurl: ""
 
 # global author information
-author: rhythmic1234
+author: alicansag
 
 permalink: /:year/:month/:day/:title/
 
